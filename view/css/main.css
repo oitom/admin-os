@@ -1,0 +1,133 @@
+body{
+    background: #cccccc;
+}
+.h1, h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.h2, h2 {
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    background: #6c757d;
+    color: #FFF;
+    padding: 10px;
+}
+.chart{
+    width: 90%;
+}
+.container{
+    padding-top: 30px;
+}
+.painel {
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 65px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+    margin-bottom: 10px
+}
+h3.header{
+    font-size: 15px;
+    padding: 15px;
+    background: #fdfafa;
+    border-radius: 10px;
+    color: #242425;
+    border-bottom: none;
+    text-align: center;
+}
+h3.footer{
+    font-size: 13px;
+    padding: 15px;
+    background: #fdfafa;
+    border-radius: 10px;
+    color: #242425;
+    text-align: center;
+    border-bottom: none;
+    cursor: pointer;
+}
+.popup{
+    width: 100%;
+    min-height: 900px;
+    background: #FFF;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    display: none;
+}
+h1.titulo-popup {
+    padding: 20px;
+}
+.header-popup{
+    width: 100%;
+    background: #CCC;
+    text-align: right;
+    height: 30px;
+}
+.main-popup {
+    width: 80%;
+    margin: 0 auto;
+}
+.header-popup>span{
+    display: block;
+    background: #F00;
+    width: 61px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+    float: right;
+    cursor: pointer;
+}
+.pesquisa {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background: #FFF;
+    height: 42px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.pesquisa>input{
+    display: block;
+    height: 42px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    border: none;
+    padding-left: 20px;
+    background: transparent;
+}
+.pesquisa>button {
+    display: block;
+    width: 10%;
+    float: left;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.pesquisa>button>img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    font-size: 14px;
+}
+.table>tbody>tr:nth-child(odd){
+    background: #fdfcfc;
+}
+.wth{
+    width: 135px !important;
+}
